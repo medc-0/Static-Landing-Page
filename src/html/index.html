@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevMade Landing Page</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/base.css">
+  <link rel="stylesheet" href="../styles/layout.css">
+  <link rel="stylesheet" href="../styles/components.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">
+      <i class="fa-solid fa-code"></i>
+      <span>DevMade</span>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <input type="checkbox" id="menu_toggle" class="menu_toggle" />
+    <label for="menu_toggle" class="hamburger">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="header__nav">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero --animate-in" id="hero">
+    <div class="hero__content">
+      <h1>Build <span class="header__specify">Modern</span> Websites</h1>
+      <p>Learn with a few easy steps clean HTML & CSS Code</p>
+      <button class="btn btn--primary">
+        <i class="fa-solid fa-rocket"></i> Begin Now
+      </button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features --animate-in" id="features">
+    <h2>What awaits You</h2>
+    <div class="features__grid">
+      <div class="feature-card">
+        <i class="fa-solid fa-mobile-screen-button"></i>
+        <h3>Responsive Design</h3>
+        <p>Optimized and Made for all Devices - from the Mobile to the Desktop.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fa-solid fa-paint-brush"></i>
+        <h3>Modern UI And UX</h3>
+        <p>Clean designs with focus on User Experience.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fa-solid fa-bolt"></i>
+        <h3>Fast Performance</h3>
+        <p>Clean written Code with best Practice.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <p>&copy; 2025 DevMade. All rights reserved.</p>
+    <div class="footer__socials">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+   
+</body>
+</html>

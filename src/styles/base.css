@@ -1,0 +1,68 @@
+/*
+Start of the base.css file
+Base rules and global values and reset are set here.
+*/
+:root {
+  /* Colors */
+  --color-primary: #2d3c53;
+  --color-bg: #f9fafb;
+  --color-text: #2f2f2f;
+  --color-bg-alt: #e4e4e4;
+
+  /* Fonts */
+  --font-main: 'Poppins', 'Inter', sans-serif;
+
+  /* Text and Fonts */
+  --font-size-base: 16px;
+  --font-size-h1: 3rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.5rem;
+
+  /* Margins */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  /* Container-Widths */
+  --container-width: 1200px;
+
+  /* Breakpoints */
+  --bp-mobile: 480px;
+  --bp-tablet: 768px;
+  --bp-desktop: 1200px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  --color-bg: #1b2439;
+  --color-text: #e2e8f0; 
+  --color-bg-alt: #1e293b;
+  --color-primary: #60a5fa;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: var(--font-size-base);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.5;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+/* --- */

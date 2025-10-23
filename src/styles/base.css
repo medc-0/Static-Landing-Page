@@ -1,10 +1,6 @@
-/*
-Start of the base.css file
-Base rules and global values and reset are set here.
-*/
 :root {
   /* Colors */
-  --color-primary: #2d3c53;
+  --color-primary: hsl(234, 47%, 23%);
   --color-bg: #f9fafb;
   --color-text: #2f2f2f;
   --color-bg-alt: #e4e4e4;
@@ -32,7 +28,6 @@ Base rules and global values and reset are set here.
   --bp-desktop: 1200px;
 }
 
-/* Dark Mode */
 .dark-mode {
   --color-bg: #1b2439;
   --color-text: #e2e8f0; 
@@ -60,9 +55,8 @@ body {
   line-height: 1.5;
 }
 
-/* Images */
 img {
   max-width: 100%;
   display: block;
 }
-/* --- */
+

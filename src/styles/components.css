@@ -1,27 +1,22 @@
-/*
-Start of the components.css file
-Components styles
-*/
-
 .btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: none;
 }
 
 .btn--primary {
-    background: var(--color-primary);
-    color: #fff;
+  background: var(--color-primary);
+  color: #fff;
 }
 
 .btn--primary:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .features__grid {
@@ -39,21 +34,23 @@ Components styles
 }
 
 .header__specify {
-    color: hsl(244, 44%, 22%);
-    font-weight: bold;
+  background: linear-gradient(90deg, hsl(233, 76%, 54%), hsl(233, 58%, 40%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .--animate-in {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeUp 0.8s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.8s ease forwards;
 }
 
 @keyframes fadeUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-
-/* --- */
